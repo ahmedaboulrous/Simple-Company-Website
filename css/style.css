@@ -1,0 +1,206 @@
+body{
+  font-family: Arial, Helvetica, sans-serif;
+  font-size: 15px;
+  line-height: 1.5;
+  padding: 0;
+  margin: 0;
+  background-color: lightgray;
+}
+
+ul {
+  padding: 0px;
+  margin: 0px;
+}
+
+.container{
+  width: 80%;
+  margin: auto;
+  overflow: hidden;
+}
+
+header{
+  background-color: #35424a;
+  color: white;
+  padding-top: 30px;
+  min-height: 70px;
+  border-bottom: tomato 3px solid;
+}
+
+header a{
+  color: white;
+  text-decoration: none;
+  text-transform: uppercase;
+  font-size: 16px;
+}
+
+header li{
+  display: inline;
+  padding: 0px 20px;
+}
+
+header #branding{
+  float: left;
+}
+
+header #branding h1{
+  margin: 0px;
+}
+
+header nav{
+  float: right;
+  margin-top: 10px;
+}
+
+header .highlight, header .current a{
+  font-weight: bold;
+  color: tomato;
+}
+
+header a:hover{
+  color: lightgray;
+  font-weight: bold;
+}
+
+
+#showcase{
+  min-height: 400px;
+  background-image: url('../img/it-background-5.jpg');
+  background-repeat: no-repeat;
+  background-clip: border-box;
+  text-align: center;
+  color: white;
+
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+}
+
+#showcase h1{
+  margin-top: 100px;
+  font-size: 55px;
+  margin-bottom: 10px;
+}
+
+#showcase p{
+  font-size: 20px;
+  margin: auto;
+  width: 80%;
+}
+
+#newsletter{
+  padding: 15px;
+  color: white;
+  background-color: #35424a;
+}
+
+#newsletter h1{
+  float: left;
+}
+
+#newsletter form{
+  float: right;
+  margin-top: 15px;
+}
+
+#newsletter input[type="email"]{
+  padding: 4px;
+  height: 25px;
+  width: 250px;
+}
+
+.button_1{
+  padding: 4px;
+  height: 37px;
+  width: 100px;
+  border: none;
+  background-color: tomato;
+  color: white;
+  font-weight: bold;
+}
+
+/********************************************************/
+
+#boxes{
+  margin-top: 20px;
+}
+
+#boxes .box{
+  float: left;
+  text-align: center;
+  width: 30%;
+  padding: 10px;
+}
+
+
+#boxes .box img{
+  width: 90px;
+}
+
+
+footer{
+  padding: 20px;
+  margin-top: 20px;
+  color: white;
+  background-color: tomato;
+  text-align: center;
+}
+
+
+aside#sidebar{
+  float: right;
+  width: 30%;
+  margin-top: 10px;
+}
+
+aside#sidebar h2, article#main-col h1{
+  color: tomato;
+  font-size: 20px;
+}
+
+article#main-col{
+  float: left;
+  width: 65%;
+}
+
+article#main-col>p{
+  background-color: white;
+  padding: 15px;
+  border: 2px solid lightgray;
+}
+
+.dark{
+  background-color: #35424a;
+  color: white;
+  margin: 10px 0px;
+  padding: 15px;
+}
+
+ul#services li{
+  list-style: none;
+  padding: 20px;
+  background-color: white;
+  margin-bottom: 10px;
+  border: 2px solid lightgray;
+
+}
+
+#pricing{
+  font-weight: bold;
+  color: tomato;
+}
+
+form input, form textarea{
+  width: 95%;
+  height: 10%;
+  padding: 5px;
+  margin-bottom: 10px;
+
+}
+
+form button#quotebtn{
+  border: none;
+  background-color: tomato;
+  color: white;
+  padding: 10px;
+  width: 100%;
+}
